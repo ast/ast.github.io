@@ -1,2 +1,2 @@
 # ast.github.io
-sm6wjm.se
+sm6wjm.se, nice and amber.

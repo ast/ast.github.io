@@ -2,99 +2,120 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-  <meta charset="utf-8">
-  <meta name="author" content="Albin">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style type="text/css">
-    :root {
-      --deep-space-sparkle: #335c67ff;
-      --medium-champagne: #fff3b0ff;
-      --indian-yellow: #e09f3eff;
-      --auburn: #9e2a2bff;
-      --rosewood: #540b0eff;
-    }
-    body {
-      font-family: 'IBM Plex Mono', monospace;
-      background-color: var(--medium-champagne);
-      color: var(--deep-space-sparkle);
-    }
-    p { max-width: 35em; }
-    .nav {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    .nav li {
-      display: inline-block;
-    }
-  </style>
-  <title>SM6WJM - Albin</title>
-</head>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="author" content="Albin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+         /*
+            https://retrocomputing.stackexchange.com/questions/12835/exactly-what-color-was-the-text-on-monochrome-terminals-with-green-on-black-and
+          */
+         :root {
+             --monitor-amber: #ffb000;
+             --monitor-amber-light: #ffcc00;
+             --cga-pink: #fc0fc0;
+         }
+         body {
+             font-family: 'IBM Plex Mono', monospace;
+             background-color: #282828;
+             color: var(--monitor-amber);
+             font-size: 16px;
+         }
+         a:link {
+             color: var(--monitor-amber-ligth);
+         }
+         a:hover {
+             color: var(--cga-pink);
+         }
+         a:visited {
+             color: var(--monitor-amber-light);
+         }
+         .content {
+             margin: auto;
+             width: 70%;
+         }
+         .nav {
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+         }
+         .nav li {
+             display: inline-block;
+         }
+         .nav li a:hover {
+             color: var(--cga-pink);
+         }
+        </style>
+        <title>SM6WJM - Albin</title>
+    </head>
 
-<body>
+    <body>
 
-<h1>SM6WJM - Albin</h1>
+        <div class="content">
 
-<nav>
-<ul class="nav">
-  <li><a href="https://github.com/ast">github.com/ast</a></li> |
-  <li><a href="https://twitter.com/albinstigo">twitter.com/ast</a></li>
-</ul>
-</nav>
+            <h1>SM6WJM - Albin</h1>
 
-<section>
-<h2>Ham Radio</h2>
-<p>I'm a licensed ham radio operator since 1996. My call is SM6WJM (and OZ3ALB
-  in Denmark).</p>
-<p>I'm interested in SDR (Software Defined Radio) and am a contributor to the
-  <a href="https://www.gnuradio.org/">GNURadio project</a>. Most of my recent
-  work have gone into optimizing GNURadio for ARM CPU based SoC boards, in
-  particular Raspberry Pi 3 and 4. You can check the progress of that work
-  in this <a href="https://github.com/gnuradio/volk/issues/243">issue</a>.</p>
-</section>
+            <nav>
+                <ul class="nav">
+                    <li><a href="https://github.com/ast">github.com/ast</a></li> |
+                    <li><a href="https://twitter.com/albinstigo">twitter.com/ast</a></li>
+                </ul>
+            </nav>
 
-<section>
-<h2>Programming</h2>
-<p>I've been enjoying programming since QBasic 4.5, released in 1988 which also
-  was the last version of QuickBasic. While a horrible language it certainly had
-  some merits when learning programming. In particular you didn't have to set up
-  an advanced development environment. Since most of
-  my code nowadays is related to signal processing it's mostly in C and C++ but
-  but I'm also interested in functional programming. Erlang is a very
-  interesting language.</p>
-</section>
+            <section>
+                <h2>Ham Radio</h2>
+                <p>I'm a licensed ham radio operator since 1996. My call is SM6WJM (and OZ3ALB
+                    in Denmark).</p>
+                <p>I'm interested in SDR (Software Defined Radio) and am a contributor to the
+                    <a href="https://www.gnuradio.org/">GNURadio project</a>. Most of my recent
+                    work have gone into optimizing GNURadio for ARM CPU based SoC boards, in
+                    particular Raspberry Pi 3 and 4. You can check the progress of that work
+                    in this <a href="https://github.com/gnuradio/volk/issues/243">issue</a>.</p>
+            </section>
 
-<section>
-<h2>Un*x</h2>
-<p>I'm a long time Linux/Unix user. My first Unix was FreeBSD and my first Linux
-distro was RedHat Linux 5.1, released in june 1998 (it's been a while).</p>
-<p><pre>Ed is the standard text editor.</pre></p>
-<p>I use emacs.</p>
-</section>
+            <section>
+                <h2>Programming</h2>
+                <p>I've been enjoying programming since QBasic 4.5, released in 1988 which also
+                    was the last version of QuickBasic. While a horrible language it certainly had
+                    some merits when learning programming. In particular you didn't have to set up
+                    an advanced development environment. Since most of
+                    my code nowadays is related to signal processing it's mostly in C and C++ but
+                    but I'm also interested in functional programming. Erlang is a very
+                    interesting language.</p>
+            </section>
 
-<section>
-<h2>Bicycles</h2>
-<p>I love cycling. Gets you around fast and keeps you in shape.
-</section>
+            <section>
+                <h2>Un*x</h2>
+                <p>I'm a long time Linux/Unix user. My first Unix was FreeBSD and my first Linux
+                    distro was RedHat Linux 5.1, released in june 1998 (it's been a while).</p>
+                <p><pre>Ed is the standard text editor.</pre></p>
+                <p>I use emacs.</p>
+            </section>
 
-<section>
-<h2>Medicine</h2>
-<p>In my day job I'm an anesthesiologist/intensivist doctor.
-I'm particularly interested in the use of technology in medicine.
-Current area of research is the use of advanced signal processing algorithms on EEG data.
-</p>
-</section>
+            <section>
+                <h2>Bicycles</h2>
+                <p>I love cycling. Gets you around fast and keeps you in shape.
+            </section>
 
-<section>
-<h2>Get in touch</h2>
-<address>
-<a href="mailto:albin.stigo@gmail.com">albin.stigo@gmail.com</a>
-GPG key: <a href="pubkey.asc">pubkey.asc</a>
-</address>
-</section>
+            <section>
+                <h2>Medicine</h2>
+                <p>In my day job I'm an anesthesiologist/intensivist doctor.
+                    I'm particularly interested in the use of technology in medicine.
+                    Current area of research is the use of advanced signal processing algorithms on EEG data.
+                </p>
+            </section>
 
-</body>
+            <section>
+                <h2>Get in touch</h2>
+                <address>
+                    <a href="mailto:albin.stigo@gmail.com">albin.stigo@gmail.com</a>
+                    GPG key: <a href="pubkey.asc">pubkey.asc</a>
+                </address>
+            </section>
+
+        </div>
+
+    </body>
 
 </html>
