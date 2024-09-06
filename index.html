@@ -7,42 +7,47 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=B612+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
     <meta name="author" content="Albin">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style type="text/css">
 
-      /* Add some nice colors to remember our childhood. */
-      /* https://retrocomputing.stackexchange.com/questions/12835/exactly-what-color-was-the-text-on-monochrome-terminals-with-green-on-black-and */
+      /* Add some nice colors to remember our childhood. */ /*
+      https://retrocomputing.stackexchange.com/questions/12835/exactly-what-color-was-the-text-on-monochrome-terminals-with-green-on-black-and
+      */
 
       :root {
           --monitor-amber: #ffb000;
           --monitor-amber-light: #ffcc00;
           --cga-pink: #fc0fc0;
+          --background: rgba(251, 254, 251, 1);
+          --color-accent: rgba(0, 108, 172, 1);
+          --color-text-base: rgba(40, 39, 40, 1);
       }
       body {
-          font-family: 'B612 Mono', monospace;
-          background-color: #282828;
-          color: var(--monitor-amber);
+          font-family: 'IBM Plex Mono', monospace;
+          background-color: var(--background);
+          color: var(--color-text-base);
           font-size: 16px;
       }
+      h1, h2, h3, h4, h5, h6 {
+          font-family: 'IBM Plex Mono', monospace;
+          color: var(--color-accent);
+      }
       a:link {
-          color: var(--monitor-amber-ligth);
+          color: var(--color-text-base);
       }
       a:hover {
-          color: var(--cga-pink);
+          color: var(--color-accent);
       }
       a:visited {
-          color: var(--monitor-amber-light);
+          color: var(--color-text-base);
       }
       .content {
           margin: auto;
-          width: 70%;
+          width: 60%;
       }
       @media screen and (max-width: 800px) {
           .content {
@@ -58,7 +63,7 @@
           display: inline-block;
       }
       .nav li a:hover {
-          color: var(--cga-pink);
+          color: var(--color-accent);
       }
     </style>
     <title>SM6WJM - Albin</title>
