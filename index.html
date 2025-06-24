@@ -5,36 +5,24 @@
   <head>
     <meta charset="UTF-8">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
     <meta name="author" content="Albin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style type="text/css">
-
-      /* Add some nice colors to remember our childhood. */ /*
-      https://retrocomputing.stackexchange.com/questions/12835/exactly-what-color-was-the-text-on-monochrome-terminals-with-green-on-black-and
-      */
-
       :root {
-          --monitor-amber: #ffb000;
-          --monitor-amber-light: #ffcc00;
-          --cga-pink: #fc0fc0;
-          --old-background: #282828;
           --background: rgba(251, 254, 251, 1);
           --color-accent: rgba(0, 108, 172, 1);
           --color-text-base: rgba(40, 39, 40, 1);
       }
       body {
-          font-family: 'IBM Plex Mono', monospace;
+          font-family: monospace;
           background-color: var(--background);
           color: var(--color-text-base);
           font-size: 16px;
       }
       h1, h2, h3, h4, h5, h6 {
-          font-family: 'IBM Plex Mono', monospace;
+          font-family: monospace;
+          font-weight: normal;
           color: var(--color-accent);
       }
       a:link {
@@ -48,7 +36,7 @@
       }
       .content {
           margin: auto;
-          width: 60%;
+          width: 800px;
       }
       @media screen and (max-width: 800px) {
           .content {
@@ -72,7 +60,7 @@
 
   <body>
 
-    <div class="content">
+    <main class="content">
 
       <h1>SM6WJM | AD8KM | Albin</h1>
 
@@ -103,8 +91,6 @@
           <li><a href="https://github.com/gnuradio/volk">Volk</a> -
             Vector-Optimized Library of Kernels. I contributed a lot
             of the ARM NEON code.</li>
-
-
       </section>
 
       <section>
@@ -158,8 +144,6 @@
         </address>
       </section>
 
-    </div>
-
+    </main>
   </body>
-
 </html>
